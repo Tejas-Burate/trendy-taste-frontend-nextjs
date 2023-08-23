@@ -1,1 +1,8 @@
-{}
+{
+  "/page": "app/page.js",
+  "/profile/page": "app/profile/page.js",
+  "/profile/user/page": "app/profile/user/page.js",
+  "/profile/campus/page": "app/profile/campus/page.js",
+  "/profile/restaurant/page": "app/profile/restaurant/page.js",
+  "/profile/category/page": "app/profile/category/page.js"
+}

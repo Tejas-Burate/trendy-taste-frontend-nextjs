@@ -1,10 +1,10 @@
 import React from 'react'
 import Link from 'next/link';
-import userProfile from '../app/profile/user/page'
+// import {getAllCampus} from '../app/profile/campus'
 
 const Sidebar = () => {
   return (
-    <nav className="bg-blue-700 h-screen mt-1 w-65 px-3 flex flex-col justify-between">
+    <nav className="bg-red-700 h-screen mb-1 w-65 px-3 flex flex-col justify-between">
     <div className="brand"> 
       <h1 className="text-4xl mt-4 ">
         <Link href="/">DashBoard</Link>
@@ -18,7 +18,7 @@ const Sidebar = () => {
         <li> 
           <Link href="/profile/admin" className="hover:text-green-400">Admin</Link>
         </li>
-        <li onClick={userProfile}> 
+        <li> 
           <Link href="/profile/user" className="hover:text-green-400">User</Link>
         </li>
         <li> 
@@ -40,7 +40,7 @@ const Sidebar = () => {
     </div>
   </nav>
 
-  )
+  );
 }
 
 export default Sidebar
